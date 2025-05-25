@@ -58,7 +58,7 @@ VENDOR=
 
 #########################################################################
 # QSDK 1.3 ES3
-export HOSTCC=arm-openwrt-linux-uclibcgnueabi-gcc
+export HOSTCC=/home/runner/work/uboot-ipq40/uboot-ipq40/openwrt-sdk-ipq806x/staging_dir/toolchain-arm_cortex-a15+neon-vfpv4_gcc-5.4.0_musl-1.1.16_eabi/bin/arm-openwrt-linux-muslgnueabi-gcc
 export HOSTSTRIP=true
 export CROSS_COMPILE=arm-openwrt-linux-uclibcgnueabi-
 export STAGING_DIR=`which arm-openwrt-linux-uclibcgnueabi-gcc|sed -e "s,/bin/arm-openwrt-linuxuclibcgnueabi--gcc,,"`
